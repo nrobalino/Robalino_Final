@@ -1,5 +1,5 @@
 ---
-title: "Robalino Portfolio"
+title: "Robalino Final Portfolio"
 author: "Naomi Andrea Robalino"
 date: "10/18/2021"
 output: 
@@ -14,13 +14,13 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-This is an example of a portfolio that someone might assemble to demonstrate the skills they have developed in VIS 2128. I have created this page using RMarkdown. There are fancier tools out there for creating and hosting webpages, and you are welcome to use any of those if you like. The advantage of this approach is that you can create your webpage directly from RStudio.
+Below is my final portfolio for VIS 2128.
 
 This example uses the `cerulean` theme, which is available by default.
 
 There are 12 themes available by default: `cerulean`, `cosmo`, `flatly`, `journal`, `lumen`, `paper`, `readable`, `sandstone`, `simplex`, `spacelab`, `united`, and `yeti`.
 
-Your portfolio should demonstrate each of the following skills (not all of which are demonstrated in this example):
+This portfolio will demonstrate each of the following skills:
 
 * Displaying multiple vector layers on the same map
 * Calculating and displaying relationships among point and polygon layers based on distance
@@ -31,39 +31,66 @@ Your portfolio should demonstrate each of the following skills (not all of which
 * Georeferencing a raster image
 * Displaying data on an interactive map
 
-# Maps of Boston
+# Static Maps
 Here are two maps of Boston. I might include some text here about this set of maps.
 
-## Interactive Map
-This interactive map demonstrates the following skills: 
+##Private Owned Publics Spaces -  NYC
+This  map demonstrates the following skills: 
 
-* Displaying data on an interactive map
+* Displaying multiple vector layers on the same map
 
-[![](thumbnails/Boston_interactive.png)](https://nrobalino.github.io/Robalino_Final/fullsize/inter_black.html){target="_blank"}
+[![](thumbnails/A_POPS_in_NYC.png)](https://nrobalino.github.io/Robalino_Final/fullsize/A_POPS_in_NYC.png.pdf){target="_blank"}
 
-## Clockboard Map
+## Bus Stops within Park Buffer Zone - Cape Town
+This map demonstrates the following skills:
+
+* Calculating and displaying relationships among point and polygon layers based on distance
+
+[![](thumbnails/B_park_buffer.png)](https://nrobalino.github.io/Robalino_Final/fullsize/B_park_buffer.png.pdf){target="_blank"}
+
+## Number of Housing Offices within a Township - Cape Town
 This map demonstrates the following skills:
 
 * Aggregating point data to a layer of polygons
 
-[![](thumbnails/clockboard.jpg)](https://nrobalino.github.io/Robalino_Final/fullsize/clockboard.pdf){target="_blank"}
+[![](thumbnails/C_township_by_office.png)](https://nrobalino.github.io/Robalino_Final/fullsize/C_township_by_office.png.pdf){target="_blank"}
 
-# Maps of San Luis Obispo
-Here are two maps of San Luis Obispo, California. I might include some text here as well.
-
-## Isochrones
-This map shows isochrones based on transit travel times to the nearest school. It demonstrates the following skills:
+## Travel Time by Walking to Nearest Bus Stop - Cambridge
+This map shows isochrones based on transit travel times to the nearest busstop. It demonstrates the following skills:
 
 * Displaying multiple vector layers on the same map
 * Calculating and displaying accessibility, based on travel time
 
-[![](thumbnails/SLO_isochrone.png)](https://nrobalino.github.io/Robalino_Final/fullsize/SLO_schools.pdf){target="_blank"}
+[![](thumbnails/D2_access_busstop.png)](https://nrobalino.github.io/Robalino_Final/fullsize/D2_access_busstop.png.pdf){target="_blank"}
 
-## Accessibility
-This map shows accessibility based on a distance-decay function of the walking time to the nearest transit stop. It demonstrates the following skills:
+## Accessbility by Walking to Publics Schools - Cambridge
+This map shows accessibility based on a distance-decay function of the walking time to the nearest public school in Cambridge. It demonstrates the following skills:
 
 * Displaying multiple vector layers on the same map
 * Calculating and displaying accessibility, based on travel time
+
+[![](thumbnails/D_access_travel_time.png)](https://nrobalino.github.io/Robalino_Final/fullsize/D_access_travel_time.png.pdf){target="_blank"}
+
+## Pedestrian Access to Schools - Cambridge
+This map demonstrates the following skills:
+* Converting between raster layers and vector layers
+
+[![](thumbnails/E_raster_vector_convert.png)](https://nrobalino.github.io/Robalino_Final/fullsize/E_raster_vector_convert.png.pdf){target="_blank"}
+
+
+## Parks Data on a Historical Map - Washington DC
+This map demonstrates the following skills:
 * Displaying raster data on a map
+* Georeferencing a raster image
 
-[![](thumbnails/SLO_raster.png)](https://nrobalino.github.io/Robalino_Final/fullsize/SLO_transit.pdf){target="_blank"}
+[![](thumbnails/G_DC_parks.png)](https://nrobalino.github.io/Robalino_Final/fullsize/G_DC_parks.pdf){target="_blank"}
+
+# Interactive Maps
+## Latinx/Hispanic Population in North Carolina - Durham County
+This map demonstrates the following skills:
+* Displaying data on an interactive map
+
+
+[![](thumbnails/H_interactive.png)](https://nrobalino.github.io/Robalino_Final/fullsize/H_Robalino_Assignment_6.hmtl){target="_blank"}
+
+
