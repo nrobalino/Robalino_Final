@@ -16,10 +16,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Below is my final portfolio for VIS 2128.
 
-This example uses the `cerulean` theme, which is available by default.
-
-There are 12 themes available by default: `cerulean`, `cosmo`, `flatly`, `journal`, `lumen`, `paper`, `readable`, `sandstone`, `simplex`, `spacelab`, `united`, and `yeti`.
-
 This portfolio will demonstrate each of the following skills:
 
 * Displaying multiple vector layers on the same map
@@ -32,9 +28,9 @@ This portfolio will demonstrate each of the following skills:
 * Displaying data on an interactive map
 
 # Static Maps
-Here are two maps of Boston. I might include some text here about this set of maps.
+Below are seven static maps.
 
-##Private Owned Publics Spaces -  NYC
+## Privately Owned Publics Spaces -  NYC
 This  map demonstrates the following skills: 
 
 * Displaying multiple vector layers on the same map
@@ -63,7 +59,7 @@ This map shows isochrones based on transit travel times to the nearest busstop. 
 
 [![](thumbnails/D2_access_busstop.png)](https://nrobalino.github.io/Robalino_Final/fullsize/D2_access_busstop.png.pdf){target="_blank"}
 
-## Accessbility by Walking to Publics Schools - Cambridge
+## Accessbility by Walking to Public Schools - Cambridge
 This map shows accessibility based on a distance-decay function of the walking time to the nearest public school in Cambridge. It demonstrates the following skills:
 
 * Displaying multiple vector layers on the same map
