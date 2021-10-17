@@ -91,6 +91,6 @@ This map demonstrates the following skills:
 * Displaying data on an interactive map
 
 
-[![](thumbnails/H_interactive.png)](https://nrobalino.github.io/Robalino_Final/fullsize/H_Robalino_Assignment_6.html){target="_blank"}
+[![](thumbnails/H_interactive.png)](https://nrobalino.github.io/Robalino_Final/fullsize/H_inter.html){target="_blank"}
 
 
